@@ -11,14 +11,6 @@ msgstr ""
 "Language: vi_VN\n"
 "Project-Id-Version: Themes - Twenty Nineteen\n"
 
-#. Description of the theme
-msgid "Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes."
-msgstr "Giao diện mặc định năm 2019 được thiết kế để thể hiện sức mạnh của trình soạn thảo block mới. Hỗ trợ tùy chỉnh style cho tất cả block mặc định, và được xây dựng để những gì bạn sửa là những gì bạn sẽ thấy trên web. Giao diện 2019 được thiết kế để phù hợp với nhiều loại website, từ blog ảnh, cửa hàng kinh doanh mới mở cho tới tổ chức phi lợi nhuận. Cung cấp khoảng không gian rộng cùng kiển font tiêu đề có nét và kiểu chữ gọn gàng, bạn sẽ thấy nó hiển thị tốt trên mọi màn hình."
-
-#. Theme Name of the theme
-msgid "Twenty Nineteen"
-msgstr "2019"
-
 #. translators: %s: Parent post link.
 #: single.php:31
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</span>"
@@ -365,14 +357,6 @@ msgstr "Không thể tìm thấy dữ liệu cần thiết tại đây. Hãy th�
 #: 404.php:20
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Oops! Không tìm thấy trang này."
-
-#. Theme URI of the theme
-msgid "https://wordpress.org/themes/twentynineteen/"
-msgstr "https://wordpress.org/themes/twentynineteen/"
-
-#. Author of the theme
-msgid "the WordPress team"
-msgstr "Nhóm Phát Triển WordPress"
 
 #. Author URI of the theme
 #: footer.php:25
