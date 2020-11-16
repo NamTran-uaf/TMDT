@@ -11,6 +11,14 @@ msgstr ""
 "Language: vi_VN\n"
 "Project-Id-Version: Themes - Twenty Seventeen\n"
 
+#. Description of the theme
+msgid "Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device."
+msgstr "Twenty Seventeen mang đến video trên header và ảnh nổi bật. Với định hướng dành cho các site kinh doanh, giao diện này mang đến nhiều mục trên trang chủ cũng như widget, menu chính và menu mạng xã hội, logo, và nhiều hơn nữa. Cá nhân hoá dễ dàng với màu tự chọn, và hiển thị nội dung đa phương tiện với định dạng bài viết. Đây là giao diện mặc định cho năm 2017 với nhiều ngôn ngữ, nhiều sự tuỳ biến và hoạt động tốt trên các thiết bị khác nhau."
+
+#. Theme Name of the theme
+msgid "Twenty Seventeen"
+msgstr "Twenty Seventeen"
+
 #: template-parts/footer/footer-widgets.php:18
 msgid "Footer"
 msgstr "Cuối trang"
@@ -23,8 +31,8 @@ msgstr "Thêm widget ở đây để hiển thị trong Sidebar của bạn trê
 msgid "Blog Sidebar"
 msgstr "Blog Sidebar"
 
-#: template-parts/navigation/navigation-top.php:31
 #: template-parts/header/site-branding.php:34
+#: template-parts/navigation/navigation-top.php:31
 msgid "Scroll down to content"
 msgstr "Kéo xuống nội dung"
 
@@ -152,8 +160,8 @@ msgctxt "Libre Franklin font: on or off"
 msgid "on"
 msgstr "bật"
 
-#: functions.php:64 functions.php:205
-#: template-parts/navigation/navigation-top.php:12
+#: template-parts/navigation/navigation-top.php:12 functions.php:64
+#: functions.php:205
 msgid "Top Menu"
 msgstr "Menu trên cùng"
 
@@ -169,11 +177,11 @@ msgstr "Rất tiếc, không có nội dung nào khớp với yêu cầu tìm ki
 msgid "Nothing Found"
 msgstr "Không có kết quả"
 
-#: comments.php:71 single.php:33
+#: single.php:33 comments.php:71
 msgid "Previous"
 msgstr "Trước"
 
-#: comments.php:72 single.php:34
+#: single.php:34 comments.php:72
 msgid "Next"
 msgstr "Trang sau"
 
@@ -200,12 +208,11 @@ msgstr "Bài cũ hơn"
 msgid "Search Results for: %s"
 msgstr "Kết quả tìm kiếm cho từ khóa: %s"
 
-#: template-parts/post/content-gallery.php:78
-#: template-parts/post/content-video.php:90
+#: template-parts/post/content.php:64 template-parts/post/content-audio.php:91
 #: template-parts/post/content-image.php:68
-#: template-parts/post/content-audio.php:91 template-parts/post/content.php:64
+#: template-parts/post/content-video.php:90
+#: template-parts/post/content-gallery.php:78
 #: template-parts/page/content-page.php:26
-#: template-parts/page/content-front-page.php:48
 msgid "Pages:"
 msgstr "Trang:"
 
@@ -217,11 +224,11 @@ msgstr "Menu"
 msgid "Skip to content"
 msgstr "Chuyển đến phần nội dung"
 
-#: archive.php:51 index.php:55 search.php:52
+#: index.php:55 archive.php:51 search.php:52
 msgid "Page"
 msgstr "Trang"
 
-#: archive.php:50 index.php:54 search.php:51
+#: index.php:54 archive.php:50 search.php:51
 msgid "Next page"
 msgstr "Trang tiếp"
 
@@ -233,7 +240,7 @@ msgstr "Oops! Không tìm thấy trang này."
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr "Không thể tìm thấy dữ liệu cần thiết tại đây. Hãy thử tìm kiếm?"
 
-#: archive.php:49 index.php:53 search.php:50
+#: index.php:53 archive.php:49 search.php:50
 msgid "Previous page"
 msgstr "Trang trước"
 
@@ -243,12 +250,12 @@ msgid "Search for:"
 msgstr "Tìm kiếm:"
 
 #. translators: %s: Post title.
-#: functions.php:392 template-parts/post/content-gallery.php:71
-#: template-parts/post/content-video.php:83
+#: template-parts/post/content.php:57 template-parts/post/content-audio.php:84
 #: template-parts/post/content-image.php:61
-#: template-parts/post/content-audio.php:84 template-parts/post/content.php:57
-#: template-parts/page/content-front-page-panels.php:45
+#: template-parts/post/content-video.php:83
+#: template-parts/post/content-gallery.php:71
 #: template-parts/page/content-front-page.php:42
+#: template-parts/page/content-front-page-panels.php:45 functions.php:392
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Đọc tiếp<span class=\"screen-reader-text\"> \"%s\"</span>"
 
@@ -303,6 +310,14 @@ msgstr[0] "%1$s Trả lời &ldquo;%2$s&rdquo;"
 msgctxt "comments title"
 msgid "One Reply to &ldquo;%s&rdquo;"
 msgstr "Một trả lời cho &ldquo;%s&rdquo;"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "Nhóm Phát Triển WordPress"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentyseventeen/"
+msgstr "https://wordpress.org/themes/twentyseventeen/"
 
 #. Author URI of the theme
 #: template-parts/footer/site-info.php:18
